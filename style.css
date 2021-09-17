@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('img/new.jpg');
+}
+
+.form-diccionario {   
+  width: 800px;
+  height: 900px;
+  background: #24303c;
+  padding: 80px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-diccionario h4 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  
+}
+.botons{
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px;
+  font-size: 16px;
+}
+
+img{
+    margin-left: 210px;
+    height: auto;
+    width: 150px;
+}
+
+.controls {
+  width: 100%;
+ margin-left: 1px;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid#1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  
+  color: white;
+}
