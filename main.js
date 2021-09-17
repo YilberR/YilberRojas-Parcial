@@ -6,7 +6,7 @@ document.getElementById("botonBuscar").onclick=function(){
        .then(response => response.json())
        .then(data => {
            data.forEach((mostrar)=>{
-           let significados = data.meanings;
+           let significados = mostrar.meanings;
             significados.forEach(a){
                 let definicion=a.definitions;
                 let usos=a.partOfSpeech;
