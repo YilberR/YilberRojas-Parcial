@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url('img/new.jpg');
+  background-image: url('./new.jpg');
 }
 
 .form-diccionario {   
